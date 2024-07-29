@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Text to PDF Converter",
+  "version": "1.0",
+  "description": "Scrape current page text and convert to PDF",
+  "permissions": ["activeTab", "contextMenus", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
